@@ -26,7 +26,28 @@ var menu =[
        "description":"Burratta cheese, imported smoked prok belly prosciutto, pached balsamic pear",
        "price":13.50,
        "type":"Appetizers"
-    }
+    },
+    {  
+        "id":3,
+        "name":"Succi",
+        "description":"Tempura shrimp, crab, smelt roe, caviar, avocado, and cucumber roll, deepfried and topped with spicy mayo",
+        "price":13.50,
+        "type":"Appetizers"
+     },
+     {  
+        "id":4,
+        "name":"St. Louie sammy",
+        "description":"Toasted naan topped with provel cheese, green peppers, bacon, grilled chicken, avocado, garlic aioli, and tomato",
+        "price":13.50,
+        "type":"Entre"
+     },
+     {  
+        "id":5,
+        "name":"Philly boi",
+        "description":"Steak, provolone cheese, bell peppers, caramelized onions, tomato, chipotle mayo, and mushrooms on a buttered baguette",
+        "price":13.50,
+        "type":"Entre"
+     }
  ]
 
 menu.forEach(function(obj) {
